@@ -1,0 +1,22 @@
+{
+  "name": "zhukmax/twigpad",
+  "description": "Lib for add symbols to start or end of string in Twig templates",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Zhuk Max",
+      "email": "zhukmax@ya.ru"
+    }
+  ],
+  "require": {
+    "php": "^7.0.1",
+    "twig/twig": "^v2.1.0",
+    "zhukmax/stringpad": "1.0.0"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "Zhukmax\\TwigPad\\": "src/"
+    }
+  }
+}
