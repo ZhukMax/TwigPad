@@ -10,8 +10,8 @@
   ],
   "require": {
     "php": "^7.0.1",
-    "twig/twig": "^v2.1.0",
-    "zhukmax/stringpad": "1.0.0"
+    "twig/twig": "^3.0",
+    "zhukmax/stringpad": "^1.1.0"
   },
   "require-dev": {},
   "autoload": {
