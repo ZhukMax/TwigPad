@@ -2,18 +2,20 @@
 
 namespace Zhukmax\TwigPad;
 
+use Twig\Extension\AbstractExtension;
+use Twig\TwigFunction;
 use Zhukmax\StringPad;
 
 /**
  * Class TwigPad
  * @package Zhukmax\TwigPad
  */
-class TwigPad extends \Twig\Extension\AbstractExtension
+class TwigPad extends AbstractExtension
 {
     public function getFunctions()
     {
         return [
-            new \Twig_Function('leftpad', function ($str, int $len, string $ch = '0') : string
+            new TwigFunction('leftpad', function ($str, int $len, string $ch = '0') : string
             {
                 return StringPad::left($str, $len, $ch);
             }),
