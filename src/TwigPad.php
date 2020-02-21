@@ -19,7 +19,7 @@ class TwigPad extends AbstractExtension
             {
                 return StringPad::left($str, $len, $ch);
             }),
-            new \Twig_Function('rightpad', function ($str, int $len, string $ch = '0') : string
+            new TwigFunction('rightpad', function ($str, int $len, string $ch = '0') : string
             {
                 return StringPad::right($str, $len, $ch);
             })
