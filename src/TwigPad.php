@@ -8,7 +8,7 @@ use Zhukmax\StringPad;
  * Class TwigPad
  * @package Zhukmax\TwigPad
  */
-class TwigPad extends \Twig_Extension
+class TwigPad extends \Twig\Extension\AbstractExtension
 {
     public function getFunctions()
     {
